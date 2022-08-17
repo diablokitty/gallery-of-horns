@@ -1,5 +1,88 @@
 
 
+# Lab 2
+
+## Thank you to Sheyna, Shane, Jordan, Alfredo, and Jeffrey for their help and collaboration in getting this assignment done. Without them, I might still be working on it.
+
+## Feature #1: Display images
+
+### Why are we implementing this feature?
+As a user, I want to view the images on the page so that I can browse the photo collection.
+### What are we going to implement?
+Given that a user opens the application in the browser
+When the user navigates to the home page
+Then the photo gallery should display all of the images in the gallery.
+### How are we implementing it?
+The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
+
+Number and name of feature: #1 Display Feature
+
+Estimate of time needed to complete: 45 minutes
+
+Start time: 1:55pm
+
+Finish time: 2:48
+
+Actual time needed to complete:  53 minutes
+
+
+## Feature #2: Allow users to vote for their favorite beast
+### Why are we implementing this feature?
+As a user, I want to be able to interact with the site and pick my favorite beast.
+### What are we going to implement?
+Given that a user opens the application in the browser
+When a user clicks on an image
+Then the number of "favorites" displayed on that image will increase by one.
+### How are we implementing it?
+Create state inside of the HornedBeast component that keeps track of the number of times an image was clicked.
+
+Put a heart in each horned beast with the number of times it was “favorited” next to it.
+
+Number and name of feature: #2 Vote for your favorite beast
+
+Estimate of time needed to complete: 1.5 hours
+
+Start time: 3:20
+
+Finish time: 3:35
+
+Actual time needed to complete: 15 minutes
+
+I made extensive use of the class lecture and had assistance from Jordan Yamada, Alfredo Orquiz, and Jeffrey Smith.
+
+
+## Feature 3: Bootstrap
+### Why are we implementing this feature?
+As a user, I want to see a visually pleasing application that is also reponsive when I view this application on different screen sizes.
+### What are we going to implement?
+Given that a user opens the application in the browser
+When the images are displayed on the screen
+Then each image should be rendered in a visually pleasing way: in columns, as screen width allows.
+### How are we implementing it?
+Bring in the react-bootstrap library and use it to style your application making sure that it is responsive.
+Stretch Goal: Add Interaction
+### Why are we implementing this feature?
+As a user, I want to be able to interact with each item on the page.
+### What are we going to implement?
+    Given that a user opens the application in the browser
+    When a user clicks on an item other than the horned beasts, such as the title of the page or the footer,
+    Then the information and styles should change.
+### How are we implementing it?
+When the user clicks on elements such as the header, footer or title of page, make something change using state.
+You can update the words, change the styles or add something new. Be creative.
+
+Number and name of feature: #3 BootStrap 
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 3:40
+
+Finish time: 6:05
+
+Actual time needed to complete: 2h, 5min
+
+This feature took much longer than it should have due to issues with my bootstrap installs. I think I've spent more time on troubleshooting installs today that I have actually writing code.
+
 
 # Getting Started with Create React App
 
@@ -75,3 +158,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Acknowledgements:
 
 I referenced information found in Carlie Anglemire's blog to render the images in this app: https://medium.com/@carlie.anglemire/requiring-images-in-react-9bcf6a8c2cb
+
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
