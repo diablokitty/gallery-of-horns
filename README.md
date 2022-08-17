@@ -2,18 +2,10 @@
 
 # Lab 2
 
-Number and name of feature: ________________________________
-
-Estimate of time needed to complete: _____
-
-Start time: _____
-
-Finish time: _____
-
-Actual time needed to complete: _____
-
+## Thank you to Sheyna, Shane, Jordan, Alfredo, and Jeffrey for their help and collaboration in getting this assignment done. Without them, I might still be working on it.
 
 ## Feature #1: Display images
+
 ### Why are we implementing this feature?
 As a user, I want to view the images on the page so that I can browse the photo collection.
 ### What are we going to implement?
@@ -85,9 +77,11 @@ Estimate of time needed to complete: 2 hours
 
 Start time: 3:40
 
-Finish time: _____
+Finish time: 6:05
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2h, 5min
+
+This feature took much longer than it should have due to issues with my bootstrap installs. I think I've spent more time on troubleshooting installs today that I have actually writing code.
 
 
 # Getting Started with Create React App
@@ -164,3 +158,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Acknowledgements:
 
 I referenced information found in Carlie Anglemire's blog to render the images in this app: https://medium.com/@carlie.anglemire/requiring-images-in-react-9bcf6a8c2cb
+
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
