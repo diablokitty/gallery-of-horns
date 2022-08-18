@@ -10,7 +10,7 @@ class Main extends React.Component {
         key={idx}
         name={beast.keyword}
         picture={beast.image_url}
-        alttxt={beast.title}
+        alttxt={beast.keyword}
         titletxt={beast.title}
         text={beast.description} 
         handleHearts={this.props.handleHearts}

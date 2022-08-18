@@ -1,12 +1,11 @@
 import React from 'react';
-import Modal from 'react-bootstrap/Modal'
-import Image from 'react-bootstrap/Image'
 import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer.js';
-//import { FaHeart} from 'react-icons/fa';
 import './App.css'
 import data from "./data.json";
+import SelectedBeast from "./SelectedBeast";
+
 
 class App extends React.Component {
 
@@ -14,13 +13,8 @@ class App extends React.Component {
     super(props);
     this.state = {
       hearts: 0,
-      showModal: true,
-      name: '',
-      picture: '',
-      alttxt: '',
-      titletxt:'',
-      text: '',
-      
+      showModal: false,
+     currBeast: {} 
     }
   }
     handleHearts = () => {
@@ -35,7 +29,7 @@ class App extends React.Component {
         currBeast: currBeast
         
       })
-      console.log(currBeast);
+      //console.log(currBeast);
       return
     }
     
@@ -57,16 +51,23 @@ class App extends React.Component {
       /> 
 
       <Footer onClick={this.handlehearts}/>
-      <Modal 
+      <SelectedBeast 
+          show={this.state.showModal}
+          hide={this.handleHideModal}
+          currBeast={this.state.currBeast}
+          />
+      
+      {/* <Modal 
         show={this.state.showModal}
         onHide={this.handleHideModal}>
           <Modal.Header closeButton>
-            <Modal.Title>{this.state.currbeast}</Modal.Title>
-            {/* <Image src={this.state.currBeast.picture} alttxt={this.state.currbeast.alttxt} title={this.state.currBeast.titletxt}></Image>
-            <p>{this.state.currBeast.text}</p> */}
+            <Image src={this.state.currBeast.picture} alttxt={this.state.currBeast.alttxt} title={this.state.currBeast.titletxt}></Image>
+            <Modal.Title>{this.state.currBeast.name}</Modal.Title>
           </Modal.Header>
-
-        </Modal>
+          <Card.Body>
+          <Card.Text>{this.state.currBeast.text}</Card.Text>
+          </Card.Body>
+        </Modal> */}
         
     </>
   }
