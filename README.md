@@ -1,4 +1,7 @@
-# Lab 3
+
+#Lab #3
+
+## Thank you to Sheyna, Shane, Jordan, Alfredo, and Jeffrey, Rhea and Jackson for their help and collaboration in getting this assignment done. A community is a powerful gift.
 
 ## Feature #1: Display a Modal
 
@@ -18,37 +21,28 @@ Import the data.json file into your App component and send that data into the Ma
 Map over the JSON data in your Main component to render each beast
 Send a function into your Main component that allows the user to update state in the App
 Create a SelectedBeast component and include it in your App
-Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React 
+Use the state in the App to render an individual beast in a Modal in the SelectedBeast component using React Bootstrap
 
-Bootstrap
-
-Number and name of feature: Feature #1: Display a Modal
+Number and name of feature: #1 Display a Model
 
 Estimate of time needed to complete: 2 hours
 
-Start time: 5pm
+Start time: I don't know
 
-Finish time: _____
+Finish time: I don't know
 
-Actual time needed to complete: _____
+Actual time needed to complete: I feel terrible so I'm counting just finishing as a win.
 
-## Stretch Goal: Fuzzy search
-
-### Why are we implementing this feature?
-
+## Stretch Goal: Fuzzy search - TODO
+Why are we implementing this feature?
 As a user, I want the ability to search my images so that I can view only the images containing specific titles or keywords.
-
-### What are we going to implement?
-
+What are we going to implement?
 Given that a user wants to view specific images
 When the user enters a character into the search field
 Then only the images matching the current set of characters should be displayed on the screen
-
-### How are we implementing it?
-
+How are we implementing it?
 Create an input element to allow users to search for an image. It is up to you to decide if the user should be able to search by title, keyword, or both.
 Write a regular expression pattern to create a fuzzy search so that the results are narrowed down and displayed every time the user enters or removes a character from the input.
-
 # Lab 2
 
 ## Thank you to Sheyna, Shane, Jordan, Alfredo, and Jeffrey for their help and collaboration in getting this assignment done. Without them, I might still be working on it.
