@@ -14,7 +14,7 @@ class App extends React.Component {
     this.state = {
       hearts: 0,
       showModal: false,
-     currBeast: {} 
+      currBeast: {} 
     }
   }
     handleHearts = () => {
@@ -29,7 +29,6 @@ class App extends React.Component {
         currBeast: currBeast
         
       })
-      //console.log(currBeast);
       return
     }
     
@@ -57,18 +56,6 @@ class App extends React.Component {
           currBeast={this.state.currBeast}
           />
       
-      {/* <Modal 
-        show={this.state.showModal}
-        onHide={this.handleHideModal}>
-          <Modal.Header closeButton>
-            <Image src={this.state.currBeast.picture} alttxt={this.state.currBeast.alttxt} title={this.state.currBeast.titletxt}></Image>
-            <Modal.Title>{this.state.currBeast.name}</Modal.Title>
-          </Modal.Header>
-          <Card.Body>
-          <Card.Text>{this.state.currBeast.text}</Card.Text>
-          </Card.Body>
-        </Modal> */}
-        
     </>
   }
 }
